@@ -1,0 +1,17 @@
+// Signature format: 2.0
+package android.test.mock {
+
+  @Deprecated public class MockPackageManager extends android.content.pm.PackageManager {
+    method public String getDefaultBrowserPackageNameAsUser(int);
+    method public int getInstallReason(String, android.os.UserHandle);
+    method public java.util.List<android.content.pm.ApplicationInfo> getInstalledApplicationsAsUser(int, int);
+    method public java.util.List<android.content.pm.PackageInfo> getInstalledPackagesAsUser(int, int);
+    method public String[] getNamesForUids(int[]);
+    method public String getPermissionControllerPackageName();
+    method @NonNull public String getServicesSystemSharedLibraryPackageName();
+    method @NonNull public String getSharedSystemSharedLibraryPackageName();
+    method public boolean isPermissionReviewModeEnabled();
+  }
+
+}
+
